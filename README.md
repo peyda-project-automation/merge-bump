@@ -25,7 +25,7 @@ jobs:
 
 To initiate a merge, the pull request author (or any other repository owner) must leave a comment in the form:
 
-> Ready to merge: [major|minor|patch]
+> Merge: [major|minor|patch]
 
 Once all CI checks pass, the pull request will be merged into master, and the repository's X, Y, or Z version will be bumped based on whether you specified major, minor, or patch respectively.
 
