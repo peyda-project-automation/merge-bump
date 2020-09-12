@@ -1,0 +1,6 @@
+name: "Merge Bump"
+description: "integrates the pull request summary into the project's changelog, and bumps the repository's version appropriately."
+author: "The Peyda Project"
+runs:
+  using: "node12"
+  main: "./src/main"
